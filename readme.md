@@ -24,7 +24,7 @@ Para poder realizar este proyecto necesitamos una base de datos en Mongo Atlas. 
 
 Una vez creada la cuenta, creamos un nuevo proyecto y dentro de él una nueva base de datos.
 
-Una vez creada la base de datos, obtenemos la url de conexión y la guardamos en un archivo .env en la raíz del proyecto.
+Una vez creada la base de datos, obtenemos la url de conexión y la guardamos en un archivo .env en la raíz del proyecto. (ya lo hice y mi cadena de conexion es esta: mongodb+srv://Ordaz:<db_password>@cluster0.sjns1ap.mongodb.net/ pero no sé cómo se guarda en un archivo .env)
 
 Podéis usar el pdf que se encuentra en la carpeta de assets para ver como se hace. Para poder verlo directamente desde visual studio code, podéis instalar la extensión `vscode-pdf` y abrir el archivo.
 
