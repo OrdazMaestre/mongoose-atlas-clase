@@ -1,8 +1,9 @@
+// routes/index.js
 const express = require('express');
 const router = express.Router();
 
-const usersRouter = require('./users');
+const tasksRouter = require('./tasks');   // ← sin .js
 
-router.use('/users', usersRouter);
+router.use('/tasks', tasksRouter);
 
 module.exports = router;
